@@ -9,7 +9,6 @@ I hunt vulnerabilities and build automation tools for security reconnaissance. C
 🏆 Bug Bounty Hunting - Finding and reporting real-world vulnerabilities
 📚 Continuous Learning - PortSwigger labs (40+ completed), HTB challenges
 
-
 🛠️ Tech Stack
 Security Tools:
 Burp Suite Nuclei SQLMap Subfinder Amass FFUF Nmap
@@ -18,9 +17,6 @@ Python JavaScript TypeScript Bash HTML/CSS
 Currently Learning:
 Advanced Authentication Attacks Business Logic Vulnerabilities API Security
 
-📊 GitHub Stats
-Show Image
-
 🏆 Achievements
 
 ✅ PortSwigger Academy: 40+ labs completed (XSS, SQLi, SSRF, Auth)
@@ -28,7 +24,6 @@ Show Image
 ✅ HTB Rank: "Script Kiddie" with growing skillset
 🎯 Automated Recon: Built custom tools for bug bounty workflow
 🐍 Python Security Scripts: Automated recon and bug discovery tools
-
 
 📂 Featured Projects
 🔥 Active Projects
@@ -41,7 +36,6 @@ Show Image
 
 📖 ripple-read-app - TypeScript application development
 
-
 🎓 Certifications & Training
 PlatformProgressFocus AreaPortSwigger Web Security Academy40+ labsXSS, SQLi, SSRF, AuthHackTheBoxActivePenetration Testing[Add Your Own][Status][Skill]
 
@@ -51,7 +45,6 @@ PlatformProgressFocus AreaPortSwigger Web Security Academy40+ labsXSS, SQLi, SSR
 🐦 Twitter/X: [@YourHandle] (optional)
 💼 LinkedIn: [Your Profile] (optional)
 📧 Email: [Your Contact] (optional)
-
 
 💡 Currently Working On
 🔴 Active: Building advanced recon automation scripts
