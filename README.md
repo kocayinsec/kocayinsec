@@ -1,52 +1,47 @@
-👋 Hey, I'm kocayinsec
-🔒 Security Researcher | Bug Bounty Hunter | Web Security Specialist
-I hunt vulnerabilities and build automation tools for security reconnaissance. Currently active on HackTheBox and PortSwigger Academy.
+<p align="center">
+  <img src="./assets/hero.svg" alt="kocayinsec — web security, automation and AI workflows" width="100%" />
+</p>
 
-🎯 What I Do
+# Hey, I'm Emre
 
-🔍 Web Application Security Testing - XSS, SQLi, SSRF, Authentication Bypass
-🤖 Security Automation - Custom recon scripts and workflow optimization
-🏆 Bug Bounty Hunting - Finding and reporting real-world vulnerabilities
-📚 Continuous Learning - PortSwigger labs (40+ completed), HTB challenges
+I build small, practical tools around web security, automation and AI workflows.
 
-🛠️ Tech Stack
-Security Tools:
-Burp Suite Nuclei SQLMap Subfinder Amass FFUF Nmap
-Languages & Frameworks:
-Python JavaScript TypeScript Bash HTML/CSS
-Currently Learning:
-Advanced Authentication Attacks Business Logic Vulnerabilities API Security
+Most of my work sits somewhere between:
 
-🏆 Achievements
+- web application security
+- recon and bug bounty workflow automation
+- authentication, SSRF and API testing
+- MCP / n8n / local AI automation experiments
+- product and mobile prototypes when I want to test an idea quickly
 
-✅ PortSwigger Academy: 40+ labs completed (XSS, SQLi, SSRF, Auth)
-✅ HackTheBox: Active member, 15+ machines rooted
-✅ HTB Rank: "Script Kiddie" with growing skillset
-🎯 Automated Recon: Built custom tools for bug bounty workflow
-🐍 Python Security Scripts: Automated recon and bug discovery tools
+I like tools that remove repetitive work, make messy workflows easier to run, and help me understand systems more deeply.
 
-📂 Featured Projects
-🔥 Active Projects
+## What I'm focused on
 
-🚀 network_automation_sender - Python-based network automation toolkit
-🌐 automation-website - Commercial security automation platform
-🔍 aspergillus-pro.io - Security research and testing framework
+- cleaning up my security automation experiments
+- building better recon and request workflow tools
+- writing practical notes around auth, SSRF, access control and API security
+- connecting AI tools with real automation workflows
+- turning rough prototypes into readable public projects
 
-📚 Learning & Practice
+## Security practice
 
-📖 ripple-read-app - TypeScript application development
+- PortSwigger Web Security Academy — 40+ labs completed
+- HackTheBox — active practice
+- Focus areas: authentication, SSRF, access control, API security, recon workflows
 
-🎓 Certifications & Training
-PlatformProgressFocus AreaPortSwigger Web Security Academy40+ labsXSS, SQLi, SSRF, AuthHackTheBoxActivePenetration Testing[Add Your Own][Status][Skill]
+## Tools I reach for
 
-📫 Connect With Me
+**Security:** Burp Suite, Nmap, Nuclei, ffuf, SQLMap, Subfinder  
+**Languages:** Python, JavaScript, TypeScript, Bash  
+**Automation:** n8n, MCP, GitHub Actions  
+**Product:** React, React Native, Expo, Vite
 
-🌐 Portfolio: [Your Website URL]
-🐦 Twitter/X: [@YourHandle] (optional)
-💼 LinkedIn: [Your Profile] (optional)
-📧 Email: [Your Contact] (optional)
+## Things I'm building / cleaning up
 
-💡 Currently Working On
-🔴 Active: Building advanced recon automation scripts
-🟡 Planning: Writeup repository for disclosed vulnerabilities
-🟢 Learning: Advanced authentication bypass techniques
+- `network_automation_sender` — async Python experiments for request automation and monitoring
+- `aspergillus-pro.io` — network monitoring / traffic visibility dashboard
+- `mcp-gemini` — MCP/SSE experiment for connecting AI workflows with n8n automation
+- `stardust-ios` — mobile prototype exploring AI-guided daily rituals and subscription UX
+
+Some repos are still rough. I'm slowly turning experiments into cleaner, documented projects.
