@@ -1,36 +1,88 @@
 <svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="260" rx="28" fill="#05070A"/>
-  <rect x="1" y="1" width="1198" height="258" rx="27" stroke="#1F2937"/>
-
   <defs>
-    <linearGradient id="scan" x1="0" y1="0" x2="220" y2="0">
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05070A"/>
+      <stop offset="0.45" stop-color="#071411"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="scan" x1="0" y1="0" x2="280" y2="0" gradientUnits="userSpaceOnUse">
       <stop stop-color="#22C55E" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#22C55E" stop-opacity="0.7"/>
+      <stop offset="0.45" stop-color="#22C55E" stop-opacity="0.75"/>
+      <stop offset="0.55" stop-color="#38BDF8" stop-opacity="0.45"/>
       <stop offset="1" stop-color="#22C55E" stop-opacity="0"/>
     </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1F2937" stroke-width="1" opacity="0.42"/>
+    </pattern>
   </defs>
 
-  <g opacity="0.35">
-    <path d="M70 190 C170 95 270 220 370 135 C470 50 560 155 640 95 C750 15 850 170 960 95 C1040 40 1100 70 1140 105"
+  <rect width="1200" height="260" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="260" rx="28" fill="url(#grid)" opacity="0.55"/>
+  <rect x="1" y="1" width="1198" height="258" rx="27" stroke="#1F2937"/>
+
+  <g opacity="0.28">
+    <path id="main-path" d="M70 190 C170 95 270 220 370 135 C470 50 560 155 640 95 C750 15 850 170 960 95 C1040 40 1100 70 1140 105"
       stroke="#22C55E" stroke-width="2" fill="none"/>
     <path d="M90 205 C240 140 340 180 455 120 C570 60 720 145 850 110 C970 78 1050 130 1130 85"
-      stroke="#38BDF8" stroke-width="1.4" fill="none"/>
+      stroke="#38BDF8" stroke-width="1.4" fill="none" opacity="0.8"/>
   </g>
 
-  <rect x="-240" y="0" width="220" height="260" fill="url(#scan)" opacity="0.25">
-    <animate attributeName="x" values="-240;1220" dur="5s" repeatCount="indefinite"/>
+  <rect x="-320" y="0" width="280" height="260" fill="url(#scan)" opacity="0.52">
+    <animate attributeName="x" values="-320;1240" dur="3.2s" repeatCount="indefinite"/>
   </rect>
 
-  <g font-family="monospace">
-    <text x="70" y="88" fill="#E5E7EB" font-size="34" font-weight="700">kocayinsec</text>
+  <g filter="url(#glow)">
+    <circle cx="165" cy="116" r="4" fill="#22C55E">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="372" cy="135" r="4" fill="#38BDF8">
+      <animate attributeName="opacity" values="1;0.25;1" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="642" cy="95" r="4" fill="#22C55E">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="960" cy="95" r="4" fill="#38BDF8">
+      <animate attributeName="opacity" values="1;0.35;1" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="5" fill="#22C55E">
+      <animateMotion dur="4s" repeatCount="indefinite"
+        path="M70 190 C170 95 270 220 370 135 C470 50 560 155 640 95 C750 15 850 170 960 95 C1040 40 1100 70 1140 105"/>
+    </circle>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <text x="70" y="86" fill="#E5E7EB" font-size="34" font-weight="700">kocayinsec</text>
     <text x="70" y="124" fill="#9CA3AF" font-size="18">web security · automation · AI workflows</text>
-    <text x="70" y="176" fill="#22C55E" font-size="15">$ ./recon --focus auth ssrf api --mode practical</text>
+
+    <text x="70" y="176" fill="#22C55E" font-size="15">
+      <tspan fill="#6EE7B7">$</tspan> ./recon --focus auth ssrf api --mode practical
+    </text>
+
+    <rect x="464" y="162" width="8" height="18" fill="#22C55E">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
     <text x="70" y="206" fill="#6B7280" font-size="13">building small tools, testing systems, documenting what actually works</text>
   </g>
 
-  <g font-family="monospace" font-size="13">
-    <text x="870" y="74" fill="#22C55E">status: active</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">
+    <text x="870" y="74" fill="#22C55E">
+      status: active
+      <animate attributeName="opacity" values="1;0.35;1" dur="1.4s" repeatCount="indefinite"/>
+    </text>
     <text x="870" y="102" fill="#38BDF8">labs: auth / ssrf / api</text>
     <text x="870" y="130" fill="#9CA3AF">mode: learn → build → ship</text>
   </g>
 </svg>
+
