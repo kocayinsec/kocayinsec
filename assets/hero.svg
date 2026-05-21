@@ -1,0 +1,36 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="260" rx="28" fill="#05070A"/>
+  <rect x="1" y="1" width="1198" height="258" rx="27" stroke="#1F2937"/>
+
+  <defs>
+    <linearGradient id="scan" x1="0" y1="0" x2="220" y2="0">
+      <stop stop-color="#22C55E" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22C55E" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#22C55E" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <g opacity="0.35">
+    <path d="M70 190 C170 95 270 220 370 135 C470 50 560 155 640 95 C750 15 850 170 960 95 C1040 40 1100 70 1140 105"
+      stroke="#22C55E" stroke-width="2" fill="none"/>
+    <path d="M90 205 C240 140 340 180 455 120 C570 60 720 145 850 110 C970 78 1050 130 1130 85"
+      stroke="#38BDF8" stroke-width="1.4" fill="none"/>
+  </g>
+
+  <rect x="-240" y="0" width="220" height="260" fill="url(#scan)" opacity="0.25">
+    <animate attributeName="x" values="-240;1220" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <g font-family="monospace">
+    <text x="70" y="88" fill="#E5E7EB" font-size="34" font-weight="700">kocayinsec</text>
+    <text x="70" y="124" fill="#9CA3AF" font-size="18">web security · automation · AI workflows</text>
+    <text x="70" y="176" fill="#22C55E" font-size="15">$ ./recon --focus auth ssrf api --mode practical</text>
+    <text x="70" y="206" fill="#6B7280" font-size="13">building small tools, testing systems, documenting what actually works</text>
+  </g>
+
+  <g font-family="monospace" font-size="13">
+    <text x="870" y="74" fill="#22C55E">status: active</text>
+    <text x="870" y="102" fill="#38BDF8">labs: auth / ssrf / api</text>
+    <text x="870" y="130" fill="#9CA3AF">mode: learn → build → ship</text>
+  </g>
+</svg>
