@@ -3,7 +3,7 @@
 </p>
 
 
-# Hey, I'm Emre
+## Hey, I'm Emre
 
 I build small, practical tools around **web security**, **automation** and **AI workflows**.
 
@@ -52,9 +52,10 @@ I like tools that remove repetitive work, make messy workflows easier to run, an
 
 ## 🧱 Things I'm building / cleaning up
 
-- 🐍 `network_automation_sender` — async Python experiments for request automation and monitoring
-- 🛰️ `aspergillus-pro.io` — network monitoring / traffic visibility dashboard
-- 🔌 `mcp-gemini` — MCP/SSE experiment for connecting AI workflows with n8n automation
-- 🌌 `stardust-ios` — mobile prototype exploring AI-guided daily rituals and subscription UX
+- 🐍 [`network_automation_sender`](https://github.com/kocayinsec/network_automation_sender) — async Python experiments for request automation and monitoring
+- 🛰️ [`aspergillus-pro.io`](https://github.com/kocayinsec/aspergillus-pro.io) — network monitoring / traffic visibility dashboard
+- 🔌 [`mcp-gemini`](https://github.com/kocayinsec/mcp-gemini) — MCP/SSE experiment for connecting AI workflows with n8n automation
+- 🌌 [`stardust-ios`](https://github.com/kocayinsec/stardust-ios) — mobile prototype exploring AI-guided daily rituals and subscription UX
+
 
 Some repos are still rough. I'm slowly turning experiments into cleaner, documented projects.
