@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" fill="none" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">Emre / kocayinsec — web and mobile development, web security</title>
+  <desc id="hero-desc">Emre, a web and mobile developer in Warsaw studying web security. A copper and ivory line drawing of an owl occasionally looks aside and blinks.</desc>
+  <style>
+    .owl-ink{stroke:#DED5BC;stroke-width:2.15;stroke-linecap:round;stroke-linejoin:round}
+    .owl-soft{stroke:#DED5BC;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round;opacity:.49}
+    .owl-copper{stroke:#B89362;stroke-width:1.85;stroke-linecap:round;stroke-linejoin:round}
+    .owl-eyes{transform-box:fill-box;transform-origin:center;animation:none}
+    .owl-pupils{animation:none}
+    @keyframes owl-blink{0%,40%,42%,74%,76%,100%{transform:scaleY(1)}41%,75%{transform:scaleY(.08)}}
+    @keyframes owl-glance{0%,16%,56%,100%{transform:translateX(0)}21%,50%{transform:translateX(2px)}62%,80%{transform:translateX(-1px)}87%{transform:translateX(0)}}
+    @media(prefers-reduced-motion:reduce){.owl-eyes,.owl-pupils{animation:none}}
+  </style>
+  <rect width="1280" height="400" rx="12" fill="#151A19"/>
+  <text x="68" y="66" fill="#BBA98D" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="20" letter-spacing=".5">kocayinsec</text>
+  <text x="63" y="217" fill="#EDE5D4" font-family="Georgia,'Times New Roman',serif" font-size="142" font-weight="400" letter-spacing="-5">Emre</text>
+  <g fill="#C4CCC6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="24">
+    <text x="68" y="277">Web &amp; mobile developer.</text>
+    <text x="68" y="313">Studying web security.</text>
+  </g>
+  <text x="68" y="360" fill="#9EA89F" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="19">Warsaw, Poland</text>
+  <g transform="translate(785 6) scale(1.08)">
+  <g id="owl-drawing">
+    <!-- The outer contour stops in places, like a lightly inked field study. -->
+    <path class="owl-ink" d="M111 112c-3-22 5-47 10-65 9 14 21 21 35 23 23-9 50-10 72-2 13-4 23-13 31-24 4 16 12 34 10 53"/>
+    <path class="owl-ink" d="M108 122c-7 29-2 49 9 64-9 21-13 46-9 69 4 28 16 47 39 56"/>
+    <path class="owl-ink" d="M275 111c10 26 7 51-5 71 10 29 11 59 3 83-5 17-14 30-26 40"/>
+    <path class="owl-soft" d="M128 74c8 8 16 12 27 12m78-3c8-5 16-10 20-17"/>
+
+    <!-- Broad facial discs, kept a little uneven. -->
+    <path class="owl-copper" d="M192 111c-16-27-48-33-66-15-21 20-16 57 7 77 14 13 35 19 56 21"/>
+    <path class="owl-copper" d="M198 110c16-27 46-31 63-14 21 21 16 55-6 76-14 13-32 19-51 22"/>
+    <path class="owl-soft" d="M180 106c-15-16-36-19-48-6-15 15-13 43 2 59m77-54c13-16 33-17 44-5 13 14 11 36-2 52"/>
+    <path class="owl-ink" d="M125 119c18-11 36-10 54 2m33-1c16-12 33-13 49-4"/>
+    <path class="owl-soft" d="M148 90l8 6m73-8-8 7m-28-17 1 13m-13-10 3 8m22-10-3 9"/>
+
+    <g id="owl-left-eye" class="owl-eyes">
+      <path class="owl-ink" d="M132 131c12-12 30-12 42 1-11 14-29 14-42-1Z"/>
+      <g class="owl-pupils">
+        <ellipse cx="153" cy="132" rx="6.6" ry="10.2" fill="#DED5BC"/>
+        <circle cx="155.2" cy="129" r="1.7" fill="#1B2020"/>
+      </g>
+    </g>
+    <g id="owl-right-eye" class="owl-eyes">
+      <path class="owl-ink" d="M217 131c11-13 29-15 42-3-10 15-29 16-42 3Z"/>
+      <g class="owl-pupils">
+        <ellipse cx="238" cy="130" rx="6.6" ry="10.2" fill="#DED5BC"/>
+        <circle cx="240.2" cy="127" r="1.7" fill="#1B2020"/>
+      </g>
+    </g>
+
+    <!-- A narrow beak and the lower facial ruff. -->
+    <path class="owl-ink" d="M190 135c0 11-1 23 7 35 6-11 8-24 7-35"/>
+    <path class="owl-copper" d="m194 151 3 12 4-13"/>
+    <path class="owl-soft" d="m147 171 9 7m8-4 8 6m54-8-8 7m23-10-8 7m-53 11 10 3m17-1 9-3"/>
+
+    <!-- Long wings, with fewer marks than the face. -->
+    <path class="owl-ink" d="M127 195c-6 29-1 62 17 89 6 9 13 14 18 15-13-29-16-54-12-78"/>
+    <path class="owl-ink" d="M257 195c9 29 4 62-12 88-5 8-11 14-17 17 12-29 15-52 11-78"/>
+    <path class="owl-soft" d="M126 225c3 20 10 38 20 52m-17-67 8 5m-7 11 8 5m-4 12 8 6m112-24c-3 20-10 38-20 52m18-68-8 6m5 10-8 6m4 11-8 7"/>
+    <path class="owl-soft" d="m171 212 5 9 7-8m21-3 5 10 6-7m-32 18 6 10 6-9m-27 18 6 9 7-8m23-3 6 10 6-9m-33 17 6 10 7-9m-24 19 6 8m22-8-5 8"/>
+    <path class="owl-ink" d="M166 299c6 6 13 9 20 9m18 0c7 0 14-3 20-8"/>
+    <path class="owl-soft" d="m180 313 8 18 9-3 9 1 7-18m-16 6v11"/>
+
+    <!-- A branch that does not frame the illustration. -->
+    <path class="owl-copper" d="M79 319c43-8 73-9 103-8 47 2 91-3 136-19m-32 10 16-15m-193 28-16-9"/>
+    <path class="owl-soft" d="M88 324c35-7 54-8 72-8m59 2c31-1 63-8 89-17"/>
+    <path class="owl-ink" d="M164 306c-5 1-7 6-6 12m12-10c-4 2-5 6-4 11m11-11c-3 2-4 5-3 9m43-11c-4 1-6 5-5 11m12-10c-4 2-5 5-4 10m11-13c-3 1-5 5-4 10"/>
+  </g>
+
+  </g>
+</svg>

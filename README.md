@@ -1,61 +1,38 @@
-<p align="center">
-  <img src="./assets/hero.svg" alt="kocayinsec — web security, automation and AI workflows" width="100%" />
-</p>
+<picture>
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/hero-compact-static.svg">
+  <source media="(max-width: 600px)" srcset="assets/hero-compact.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-static.svg">
+  <img src="assets/hero.svg" width="100%" alt="Emre / kocayinsec — web and mobile products, automation, web security">
+</picture>
 
+I build web and mobile apps, and write tools for the repetitive work around them. I'm also working through web security labs, with a particular interest in authentication and access control.
 
-## Hey, I'm Emre
+## A few projects
 
-I build small, practical tools around **web security**, **automation** and **AI workflows**.
+**[CurvedFor Claude Plugin](https://github.com/kocayinsec/curvedfor-claude-plugin)**  
+A Claude plugin for preparing launch-page briefs and checking their structure over MCP. The connector is read-only.
 
-Most of my work sits somewhere between:
+**[Network Automation Sender](https://github.com/kocayinsec/network_automation_sender)**  
+A Python tool for HTTP request workflows, with async execution, queues and retries.
 
-- 🛡️ web application security
-- 🧭 recon and bug bounty workflow automation
-- 🔐 authentication, SSRF and API testing
-- 🔌 MCP / n8n / local AI automation experiments
-- 📱 product and mobile prototypes when I want to test an idea quickly
+**[Aspergillus Pro](https://github.com/kocayinsec/aspergillus-pro.io)**  
+A prototype for viewing network traffic in a dashboard.
 
-I like tools that remove repetitive work, make messy workflows easier to run, and help me understand systems more deeply.
+## Security practice
 
----
+I'm focusing on authentication, access control, SSRF and API security.
 
-## 🎯 What I'm focused on
+- **PortSwigger Web Security Academy:** 40+ labs completed.
+- **Hack The Box:** ongoing practice.
 
-- 🧪 cleaning up my security automation experiments
-- ⚙️ building better recon and request workflow tools
-- 📝 writing practical notes around auth, SSRF, access control and API security
-- 🔗 connecting AI tools with real automation workflows
-- 📦 turning rough prototypes into readable public projects
+<details>
+<summary>What I use</summary>
 
----
+Python, TypeScript, React, React Native and Expo.  
+Burp Suite, Nmap, Nuclei and ffuf for security practice; MCP and n8n for automation.
 
-## 🛡️ Security practice
-
-- 🧬 **PortSwigger Web Security Academy** — 40+ labs completed
-- ⚔️ **HackTheBox** — active practice
-- 🔎 **Focus areas:** authentication, SSRF, access control, API security, recon workflows
+</details>
 
 ---
 
-## 🧰 Tools I reach for
-
-**Security:** Burp Suite, Nmap, Nuclei, ffuf, SQLMap, Subfinder  
-**Languages:** Python, JavaScript, TypeScript, Bash  
-**Automation:** n8n, MCP, GitHub Actions  
-**Product:** React, React Native, Expo, Vite
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,js,ts,bash,react,vite,github&theme=dark" alt="Tech stack icons" />
-</p>
-
----
-
-## 🧱 Things I'm building / cleaning up
-
-- 🐍 [`network_automation_sender`](https://github.com/kocayinsec/network_automation_sender) — async Python experiments for request automation and monitoring
-- 🛰️ [`aspergillus-pro.io`](https://github.com/kocayinsec/aspergillus-pro.io) — network monitoring / traffic visibility dashboard
-- 🔌 [`mcp-gemini`](https://github.com/kocayinsec/mcp-gemini) — MCP/SSE experiment for connecting AI workflows with n8n automation
-- 🌌 [`stardust-ios`](https://github.com/kocayinsec/stardust-ios) — mobile prototype exploring AI-guided daily rituals and subscription UX
-
-
-Some repos are still rough. I'm slowly turning experiments into cleaner, documented projects.
+[curvedfor.com](https://curvedfor.com)
