@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" fill="none" role="img" aria-labelledby="hero-title hero-desc">
-  <title id="hero-title">Emre / kocayinsec — web and mobile development, web security</title>
-  <desc id="hero-desc">Emre, a web and mobile developer in Warsaw studying web security. A copper and ivory line drawing of an owl occasionally looks aside and blinks.</desc>
+  <title id="hero-title">kocayinsec — web and mobile development, web security</title>
+  <desc id="hero-desc">A web and mobile developer in Warsaw studying web security. A copper and ivory line drawing of an owl occasionally looks aside and blinks.</desc>
   <style>
     .owl-ink{stroke:#DED5BC;stroke-width:2.15;stroke-linecap:round;stroke-linejoin:round}
     .owl-soft{stroke:#DED5BC;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round;opacity:.49}
@@ -12,8 +12,7 @@
     @media(prefers-reduced-motion:reduce){.owl-eyes,.owl-pupils{animation:none}}
   </style>
   <rect width="1280" height="400" rx="12" fill="#151A19"/>
-  <text x="68" y="66" fill="#BBA98D" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="20" letter-spacing=".5">kocayinsec</text>
-  <text x="63" y="217" fill="#EDE5D4" font-family="Georgia,'Times New Roman',serif" font-size="142" font-weight="400" letter-spacing="-5">Emre</text>
+  <text x="63" y="217" fill="#EDE5D4" font-family="Georgia,'Times New Roman',serif" font-size="112" font-weight="400" letter-spacing="-3">kocayinsec</text>
   <g fill="#C4CCC6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="24">
     <text x="68" y="277">Web &amp; mobile developer.</text>
     <text x="68" y="313">Studying web security.</text>

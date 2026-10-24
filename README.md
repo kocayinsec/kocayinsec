@@ -2,7 +2,7 @@
   <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/hero-compact-static.svg">
   <source media="(max-width: 600px)" srcset="assets/hero-compact.svg">
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-static.svg">
-  <img src="assets/hero.svg" width="100%" alt="Emre / kocayinsec — web and mobile products, automation, web security">
+  <img src="assets/hero.svg" width="100%" alt="kocayinsec — web and mobile products, automation, web security">
 </picture>
 
 I build web and mobile apps, and write tools for the repetitive work around them. I'm also working through web security labs, with a particular interest in authentication and access control.
