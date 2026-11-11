@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="460" viewBox="0 0 460 460" role="img" aria-labelledby="t"><title id="t">kocayinsec: a line drawing of an owl</title>
+<style>.ink,.soft,.cu{fill:none;stroke:#2B2924;stroke-linecap:round;stroke-linejoin:round}.ink{stroke-width:4.08}.soft{stroke-width:2.94;opacity:.49}.cu{stroke:#A5633A;stroke-width:3.52}.moon{fill:none;stroke:#2B2924;stroke-width:2.66;stroke-opacity:.22}.knock{fill:#F1EBDD}.pupil{fill:#1F1E1A}.glint{fill:#F1EBDD}</style>
+<defs><clipPath id="eL"><path d="M132 131c12-12 30-12 42 1-11 14-29 14-42-1Z"/></clipPath><clipPath id="eR"><path d="M217 131c11-13 29-15 42-3-10 15-29 16-42 3Z"/></clipPath></defs>
+<rect width="460" height="460" fill="#F1EBDD"/>
+<g transform="translate(-77 -4) scale(1.6)">
+<circle class="moon" cx="191.9" cy="146.2" r="132.5"/>
+<path class="knock" d="M111 112C108 90 116 65 121 47C130 61 142 68 156 70C179 61 206 60 228 68C241 64 251 55 259 44C263 60 271 78 269 97L275 111C285 137 282 162 270 182C280 211 281 241 273 265C268 282 259 295 247 305L214 316L180 316L147 311C124 302 112 283 108 255C104 232 108 207 117 186C106 171 101 151 108 122Z"/>
+<path class="ink" d="M111 112c-3-22 5-47 10-65 9 14 21 21 35 23 23-9 50-10 72-2 13-4 23-13 31-24 4 16 12 34 10 53"/>
+<path class="ink" d="M108 122c-7 29-2 49 9 64-9 21-13 46-9 69 4 28 16 47 39 56"/>
+<path class="ink" d="M275 111c10 26 7 51-5 71 10 29 11 59 3 83-5 17-14 30-26 40"/>
+<path class="soft" d="M128 74C136 82 144 86 155 86"/>
+<path class="soft" d="M233 83C241 78 249 73 253 66"/>
+<path class="cu" d="M192 111c-16-27-48-33-66-15-21 20-16 57 7 77 14 13 35 19 56 21"/>
+<path class="cu" d="M198 110c16-27 46-31 63-14 21 21 16 55-6 76-14 13-32 19-51 22"/>
+<path class="soft" d="M211 105C224 89 244 88 255 100C268 114 266 136 253 152"/>
+<path class="soft" d="M180 106C165 90 144 87 132 100C117 115 119 143 134 159"/>
+<path class="soft" d="M193 78L194 91"/>
+<path class="soft" d="M206 79L203 88"/>
+<path class="soft" d="M181 81L184 89"/>
+<path class="soft" d="M229 88L221 95"/>
+<path class="soft" d="M148 90L156 96"/>
+<path class="soft" d="M241 169L233 176"/>
+<path class="soft" d="M147 171L156 178"/>
+<path class="soft" d="M226 172L218 179"/>
+<path class="soft" d="M164 174L172 180"/>
+<path class="soft" d="M180 187L190 190"/>
+<path class="soft" d="M207 189L216 186"/>
+<path class="ink" d="M127 195c-6 29-1 62 17 89 6 9 13 14 18 15-13-29-16-54-12-78"/>
+<path class="ink" d="M257 195c9 29 4 62-12 88-5 8-11 14-17 17 12-29 15-52 11-78"/>
+<path class="soft" d="M252 209L244 215"/>
+<path class="soft" d="M129 210L137 215"/>
+<path class="soft" d="M126 225C129 245 136 263 146 277"/>
+<path class="soft" d="M254 225C251 245 244 263 234 277"/>
+<path class="soft" d="M249 225L241 231"/>
+<path class="soft" d="M130 226L138 231"/>
+<path class="soft" d="M245 242L237 249"/>
+<path class="soft" d="M134 243L142 249"/>
+<path class="soft" d="M204 210L209 220L215 213"/>
+<path class="soft" d="M171 212L176 221L183 213"/>
+<path class="soft" d="M183 231L189 241L195 232"/>
+<path class="soft" d="M204 248L210 258L216 249"/>
+<path class="soft" d="M168 250L174 259L181 251"/>
+<path class="soft" d="M183 266L189 276L196 267"/>
+<path class="soft" d="M172 286L178 294"/>
+<path class="soft" d="M200 286L195 294"/>
+<path class="ink" d="M166 299C172 305 179 308 186 308"/>
+<path class="ink" d="M204 308C211 308 218 305 224 300"/>
+<path class="soft" d="M180 313L188 331L197 328L206 329L213 311"/>
+<path class="soft" d="M197 317L197 328"/>
+<path class="ink" d="M125 119C143 108 161 109 179 121"/>
+<path class="ink" d="M212 120C228 108 245 107 261 116"/>
+<path class="ink" d="M190 135c0 11-1 23 7 35 6-11 8-24 7-35"/>
+<path class="cu" d="m194 151 3 12 4-13"/>
+<path class="ink" d="M132 131c12-12 30-12 42 1-11 14-29 14-42-1Z"/><g clip-path="url(#eL)"><ellipse class="pupil" cx="153" cy="132" rx="6.6" ry="10.2"/><circle class="glint" cx="155.2" cy="129" r="1.7"/></g>
+<path class="ink" d="M217 131c11-13 29-15 42-3-10 15-29 16-42 3Z"/><g clip-path="url(#eR)"><ellipse class="pupil" cx="238" cy="130" rx="6.6" ry="10.2"/><circle class="glint" cx="240.2" cy="127" r="1.7"/></g>
+</g></svg>
