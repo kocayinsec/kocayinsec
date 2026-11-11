@@ -9,18 +9,23 @@
   <img src="assets/hero.svg" width="100%" alt="kocayinsec. Builds web and mobile products, studies how they break. A line drawing of an owl on a branch looks across at the name.">
 </picture>
 
-I build web and mobile apps, and write tools for the repetitive work around them. I'm also working through web security labs, with a particular interest in authentication and access control.
+Most of what I build is private: web apps in TypeScript and React, and a React Native app. What is public here is the smaller work around it, and my web security practice, where authentication and access control get most of my time.
 
-## A few projects
+**Now, November 2026:** building a React Native app with its own motion system, and publishing my Obsidian setups in [obsidian-bank](https://github.com/kocayinsec/obsidian-bank).
+
+## Public projects
 
 **[CurvedFor Claude Plugin](https://github.com/kocayinsec/curvedfor-claude-plugin)**  
 A Claude plugin for preparing launch-page briefs and checking their structure over MCP. The connector is read-only.
 
+**[obsidian-bank](https://github.com/kocayinsec/obsidian-bank)**  
+Ready-to-use Obsidian setups with default content only. The first one is a daily habit dashboard.
+
 **[Network Automation Sender](https://github.com/kocayinsec/network_automation_sender)**  
-A Python tool for HTTP request workflows, with async execution, queues and retries.
+A study project in Python: an asyncio HTTP request runner with a priority queue and retries.
 
 **[Aspergillus Pro](https://github.com/kocayinsec/aspergillus-pro.io)**  
-A prototype for viewing network traffic in a dashboard.
+A prototype of a network-traffic dashboard. It plays simulated traffic; nothing is captured yet.
 
 ## Security practice
 
