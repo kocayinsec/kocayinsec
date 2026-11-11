@@ -1,8 +1,12 @@
 <picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: light) and (prefers-reduced-motion: reduce)" srcset="assets/hero-light-compact-static.svg">
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/hero-light-compact.svg">
   <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/hero-compact-static.svg">
   <source media="(max-width: 600px)" srcset="assets/hero-compact.svg">
+  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce)" srcset="assets/hero-light-static.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-static.svg">
-  <img src="assets/hero.svg" width="100%" alt="kocayinsec — web and mobile products, automation, web security">
+  <img src="assets/hero.svg" width="100%" alt="kocayinsec. Builds web and mobile products, studies how they break. A line drawing of an owl on a branch looks across at the name.">
 </picture>
 
 I build web and mobile apps, and write tools for the repetitive work around them. I'm also working through web security labs, with a particular interest in authentication and access control.
