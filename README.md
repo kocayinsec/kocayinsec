@@ -1,12 +1,8 @@
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: light) and (prefers-reduced-motion: reduce)" srcset="assets/hero-light-compact-static.svg">
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/hero-light-compact.svg">
-  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/hero-compact-static.svg">
-  <source media="(max-width: 600px)" srcset="assets/hero-compact.svg">
-  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce)" srcset="assets/hero-light-static.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-static.svg">
-  <img src="assets/hero.svg" width="100%" alt="kocayinsec. Builds web and mobile products, studies how they break. A line drawing of an owl on a branch looks across at the name.">
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/hero-light-compact-static.svg">
+  <source media="(max-width: 600px)" srcset="assets/hero-light-compact.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-light-static.svg">
+  <img src="assets/hero-light.svg" width="100%" alt="kocayinsec. Builds web and mobile products, studies how they break. A line drawing of an owl on a branch, in front of a faint moon, looks across at the name.">
 </picture>
 
 Most of what I build is private: web apps in TypeScript and React, and a React Native app. What is public here is the smaller work around it, and my web security practice, where authentication and access control get most of my time.
